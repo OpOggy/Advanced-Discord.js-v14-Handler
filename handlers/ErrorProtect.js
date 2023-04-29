@@ -5,8 +5,8 @@ module.exports = async (client) => {
 
 const Embed = new EmbedBuilder().setColor("Red").setTimestamp()
     const webhook = new WebhookClient({
-        id: "1100686075694956544" || process.env.ERROR_ID,
-        token: "JkOV1iIp6si_GOQkgiWOY2bAthmLtd-bc7UqEbHKLiKcDLq-iUpTxyyKD7dxVNs0T_cP" || process.env.ERROR_TOKEN
+        id: "" || process.env.ERROR_ID,
+        token: "" || process.env.ERROR_TOKEN
     });
 
     process.on("unhandledRejection", (reason, p) => {
