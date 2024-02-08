@@ -20,8 +20,3 @@ const config = require("../config.js")
     logchannel.send({ embeds: [embed], username: "Join Logger"})
 
 })
-
-
-/*
-Reference taken from @𝗔𝘆𝘂𝘀𝗵𝘀𝗲𝗹𝗳𝗰𝗼𝗱𝗲𝗿
-*/
